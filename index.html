@@ -4,17 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Farm Game</title>
 </head>
 <body>
-    <section class="farm">
-        <div class="farm-cont">
-            <h1 class="farm-title">Legendary farm game in your hands</h1>
-            <p class="farm-text">Play as a Helga the Cow to protect your animal friends from the Farmer</p>
-            <a class="farm-btn" href="#" target="_blank" >Play now</a>
-        </div>
-        <img src="./images/image-1.jpg" alt="cow" width="465" title="Cow">
-    </section>
+    <div class="grand-container">
+        <header class="header">
+            <div class="container">
+                <img src="./images/Vector.svg" alt="" class="logo">
+                <span class="logo-text">farmgame</span>
+                <div class="farm">
+                    <div class="farm-cont">
+                        <h1 class="farm-title">Legendary farm game in your hands</h1>
+                        <p class="farm-text">Play as a Helga the Cow to protect your animal friends from the Farmer</p>
+                        <a class="farm-btn" href="#" target="_blank">Play now</a>
+                    </div>
+                    <div class="farm-bg">
+                        <img src="./images/image-1.png" alt="cow" width="255" title="Cow">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <h2 class="descriptions-title">What`s inside the game</h2>
+                <ul class="descriptions">
+                    <li class="dscrptn-item">
+                        <img src="./images/image-2.png" alt="running shoes">
+                        <div class="dscrptn-wrap">
+                            <h3 class="dscptn-title">Run as fast as you can</h3>
+                            <p>You have to be very fast to not be caught by the Farmer</p>
+                        </div>
+                    </li>
+                    <li class="dscrptn-item">
+                        <img src="./images/image-3.png" alt="duckling">
+                        <div class="dscrptn-wrap">
+                            <h3 class="dscptn-title">Protect your animal friends</h3>
+                            <p>You have so many friends – protect them all!</p>
+                        </div>
+                    </li>
+                    <li class="dscrptn-item">
+                        <img src="./images/image-4.png" alt="cup">
+                        <div class="dscrptn-wrap">
+                            <h3 class="dscptn-title">Score as much points as you can</h3>
+                            <p>In the end this is all about points. Show your strength!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="more">
+                    <div class="more-cont">
+                        <h2 class="more-title">More animals you save, closer your victory!</h2>
+                        <p class="more-text">Don`t miss the chance to make the Farmer cry again. Animals, be strong!</p>
+                        <a class="more-btn" href="#" target="_blank">Play now</a>
+                    </div>
+                    <img src="./images/image-5.png" alt="cow" width="255" title="Cow">
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p class="footer-text">2030 &#169 All rights reserved</p>
+    </footer>
 </body>
 </html>
+<!-- Только для тега body числовые паддинги не нужны, 
+    лучше обнулить паддинг И ширину для body мы не 
+    задаем. -->
